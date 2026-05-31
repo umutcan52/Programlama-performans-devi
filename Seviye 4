@@ -1,0 +1,12 @@
+Kullanıcı tarafından girilen bir sayı listesi veya dizisi içerisindeki tüm elemanlar taranarak aralarındaki en küçük değere sahip olan sayı tespit edilir ve ekrana yazdırılır.
+
+
+
+
+
+# Kullanıcıdan virgülle ayrılmış sayılar alarak liste oluşturuyoruz
+girdi = input("Sayıları aralarında virgül bırakarak giriniz (Örn: 10, 2, 8): ")
+sayi_listesi = [int(sayi.strip()) for sayi in girdi.split(",")]
+
+en_kucuk = min(sayi_listesi)
+print(en_kucuk)
