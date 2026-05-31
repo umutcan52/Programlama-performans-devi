@@ -1,0 +1,12 @@
+Kullanıcıdan bir sınav notu alınır; eğer bu not belirlenen geçme barajından (örneğin 50) büyük veya bu değere eşitse ekrana "Geçtiniz", aksi durumda ise "Kaldınız" mesajı yazdırılır.
+
+
+
+
+
+not_degeri = int(input("Notu giriniz: "))
+
+if not_degeri >= 50:
+    print("Geçtiniz")
+else:
+    print("Kaldınız")
