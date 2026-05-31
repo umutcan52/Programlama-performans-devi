@@ -1,0 +1,10 @@
+Kullanıcıdan alınan metin veya kelime içerisindeki tüm harfler büyük harfe dönüştürülür ve elde edilen yeni kelime ekrana yazdırılır.
+
+
+
+
+
+kelime = input("Kelime giriniz: ")
+
+buyuk_kelime = kelime.upper()
+print(buyuk_kelime)
