@@ -1,0 +1,16 @@
+Kullanıcıdan bir hata kodu veya komut girmesi istenir; eğer girilen komut "E1" ise ekrana "Isı", "E2" ise "Fan", "EXIT" ise "Çıkış" kelimesi yazdırılır.
+
+
+
+
+
+hata_kodu = input("Hata kodunu giriniz (E1 / E2 / EXIT): ")
+
+if hata_kodu == "E1":
+    print("Isı")
+elif hata_kodu == "E2":
+    print("Fan")
+elif hata_kodu == "EXIT":
+    print("Çıkış")
+else:
+    print("Bilinmeyen Hata Kodu")
