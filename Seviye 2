@@ -1,0 +1,11 @@
+Kullanıcıdan dairenin yarıçap (r) değeri alınır, ardından pi sayısı (tablodaki örneğe uygun olarak 3.14 kabul edilerek) yarıçapın karesi ile çarpılır ve hesaplanan alan değeri ekrana yazdırılır.
+
+
+
+
+
+r = float(input("Yarıçapı (r) giriniz: "))
+pi = 3.14
+alan = pi * (r ** 2)
+
+print(f"Alan: {alan}")
